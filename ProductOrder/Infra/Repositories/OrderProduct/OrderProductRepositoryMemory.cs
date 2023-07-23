@@ -4,7 +4,7 @@ using ProductOrder.Infra.Repositories.OrderProduct;
 
 namespace ProductOrder.Infra.Database.OrderProduct;
 
-public class OrderProductMemoryRepository : IOrderProductRepository
+public class OrderProductRepositoryMemory : IOrderProductRepository
 {
     private readonly List<OrderProductModel> _models = new List<OrderProductModel>();
 
